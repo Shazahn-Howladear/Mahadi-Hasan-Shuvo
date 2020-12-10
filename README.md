@@ -8,6 +8,8 @@ pkg install python
 
 pkg install python2
 
+pkg install menu
+
 pkg install reqest
 
 pkg install git
