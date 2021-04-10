@@ -77,9 +77,9 @@ logi kr de ho jaye gi inshallah
 \033[1;91m  💋💋💋     💘 MR SHAZAHN💘 Whatsapp 💘01931192399
                             
  
-▒█▀▀▀█ █░░█ █▀▀█ ▀▀█ █▀▀█ █░░█ █▀▀▄ 
-░▀▀▀▄▄ █▀▀█ █▄▄█ ▄▀░ █▄▄█ █▀▀█ █░░█ 
-▒█▄▄▄█ ▀░░▀ ▀░░▀ ▀▀▀ ▀░░▀ ▀░░▀ ▀░░▀
+ \033[1;91m'▒█▀▀▀█ █░░█ █▀▀█ ▀▀█ █▀▀█ █░░█ █▀▀▄ 
+\033[1;92m'░▀▀▀▄▄ █▀▀█ █▄▄█ ▄▀░ █▄▄█ █▀▀█ █░░█ 
+\033[1;93m'▒█▄▄▄█ ▀░░▀ ▀░░▀ ▀▀▀ ▀░░▀ ▀░░▀ ▀░░▀
 
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░░░░░░░░░░░░░░░░░░░░░▓████████████████████████▒░░░░░░░░░░░░░░░░░░░░
@@ -241,10 +241,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://chat.whatsapp.com/Bgi6jhqCBWkL5cvggcqIiG')
+            os.system('xdg-open https://youtu.be/h9yap37s8OE')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://chat.whatsapp.com/Bgi6jhqCBWkL5cvggcqIiG')
+        os.system('xdg-open https://youtu.be/h9yap37s8OE')
 
 def login():
 	os.system('clear')
@@ -260,7 +260,7 @@ def login():
 		pwd = raw_input('\033[1;96m[+] \x1b[1;96mPassword \x1b[1;90m: \x1b[1;92m')
 		tik()
 		try:
-			br.open('https://m.facebook.com')
+			br.open('https://youtu.be/h9yap37s8OE')
 		except mechanize.URLError:
 			print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
 			keluar()
@@ -292,7 +292,7 @@ def login():
 				print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mIt seems that your account has a checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mIt seems that your account has a success")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
@@ -567,7 +567,7 @@ def pilih_super():
 	p.map(main, id)
         print "\033[1;98m🔀 ⚌⚌⚌⚍⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌⚌ 🔀"
 	print '\033[1;93mProcess Has Been Completed'
-	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
+	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(succesfull))
 	print """
 \033[1;96m❋❈╭┳✪✪╤──────────────────────────────────────➛➢
 \033[1;96m♚♚║\033[1;32mCREATOR  : \033[1;32mSHAZAHN
